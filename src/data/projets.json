@@ -1,0 +1,53 @@
+{
+   "works": [
+      {
+         "sectionTitle": "École",
+         "projets": [
+            {
+               "id": 1,
+               "name": "AirTrack",
+               "description": "Gestion des pilotes d'air France",
+               "link": "https://github.com/Tom-lchg/AirTrack",
+               "img": "https://wallpaperset.com/w/full/1/9/7/183261.jpg"
+            },
+            {
+               "id": 2,
+               "name": "HardwareSeven",
+               "description": "un site d'ecommerce sur les composants de PC",
+               "link": "https://hardwareseven.fr/index.php",
+               "img": "https://www.blog.shippypro.com/hs-fs/hubfs/Blog/EN/PrestaShop%20Addons%20featured%20image.jpg?width=1920&height=1080&name=PrestaShop%20Addons%20featured%20image.jpg"
+            },
+            {
+               "id": 3,
+               "name": "Leveling",
+               "description": "Le réseaux social du gaming",
+               "link": "https://github.com/Tom-lchg/leveling_3.0",
+               "img": "levelingLogo.png"
+            },
+            {
+               "id": 4,
+               "name": "E-enseignement",
+               "description": "Objectif de réaliser un site via Wordpress, avec l'ensemble des cours et exercices.",
+               "link": "http://e-enseignement.fr/",
+               "img": "https://www.tunisie.campusfrance.org/sites/pays/files/tunisie/styles/desktop_visuel_principal_page/public/medias/images/2020-11/Panorama%20de%20l%27enseignement%20franc%CC%A7ais.jpg?itok=Jkty2dcH"
+            }
+         ]
+      },
+      {
+         "sectionTitle": "Personnel",
+         "projets": []
+      },
+      {
+         "sectionTitle": "Collaboration",
+         "projets": [
+            {
+               "id": 1,
+               "name": "Infoting",
+               "description": "Réalisation de leur site web",
+               "link": "https://infoting.fr/",
+               "img": "https://infoting.fr/logo.png"
+            }
+         ]
+      }
+   ]
+}

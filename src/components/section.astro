@@ -1,0 +1,14 @@
+---
+import Title from "./ui/title";
+
+interface Props {
+    title?: string
+}
+
+const {title} = Astro.props
+---
+
+<section class="space-y-2 mt-6">
+    <Title variant='section'>{title}</Title>
+    <slot />
+</section>

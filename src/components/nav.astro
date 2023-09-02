@@ -1,0 +1,19 @@
+---
+import { cn } from "../lib/utils";
+import ToggleTheme from "./toggle-theme";
+
+const pathname = Astro.url.pathname
+---
+
+<nav class="w-full fixed top-0 border-b-[1px] z-50 backdrop-blur-md bg-white/80 dark:bg-black/80" transition:animate="none">
+    <div class="max-w-[600px] mx-auto flex items-center h-14 justify-between px-4 sm:px-0">
+        <div class="space-x-6">
+            <a href="/" class={cn('text-[18px] duration-100', pathname === '/' ? 'text-black dark:text-white font-bold' : 'text-zinc-600 dark:hover:text-white hover:text-black')}>Tom</a>
+            <a href="/projets" class={cn('text-[18px] hidden sm:inline duration-100', pathname === '/projets' ? 'text-black dark:text-white font-bold' : 'text-zinc-600 dark:hover:text-white hover:text-black')}>Projets</a>
+            <a href="/" target='_blank' class="text-[18px] hidden sm:inline">Source</a>
+        </div>
+        <div>
+            <ToggleTheme client:only/>
+        </div>
+    </div>
+</nav>

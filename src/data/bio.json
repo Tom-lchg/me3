@@ -1,0 +1,24 @@
+{
+   "SectionBio": [
+      {
+         "id": 1,
+         "date": "2000",
+         "content": "Naissance Paris 75"
+      },
+      {
+         "id": 2,
+         "date": "2018",
+         "content": "Obtention du BAC PRO SEN"
+      },
+      {
+         "id": 3,
+         "date": "2019",
+         "content": "Autoformation développeur full-stack"
+      },
+      {
+         "id": 4,
+         "date": "2023",
+         "content": "Obtention du BTS SIO SLAM"
+      }
+   ]
+}

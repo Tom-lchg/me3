@@ -1,0 +1,106 @@
+{
+   "SectionCompetences": [
+      {
+         "id": 1,
+         "label": "Maîtriser",
+         "skills": [
+            {
+               "id": 1,
+               "name": "React",
+               "color": "teal"
+            },
+            {
+               "id": 2,
+               "name": "Next",
+               "color": "black"
+            },
+            {
+               "id": 3,
+               "name": "Typescript",
+               "color": "blue"
+            },
+            {
+               "id": 4,
+               "name": "Express",
+               "color": "black"
+            },
+            {
+               "id": 5,
+               "name": "MongoDB",
+               "color": "green"
+            },
+            {
+               "id": 6,
+               "name": "Prisma",
+               "color": "grey"
+            },
+            {
+               "id": 7,
+               "name": "socket.io",
+               "color": "grey"
+            },
+            {
+               "id": 8,
+               "name": "Framer-motion",
+               "color": "black"
+            },
+            {
+               "id": 9,
+               "name": "Chakra-ui",
+               "color": "blue"
+            },
+            {
+               "id": 10,
+               "name": "Tailwind-css",
+               "color": "blue"
+            },
+            {
+               "id": 11,
+               "name": "Shadcn-ui",
+               "color": "black"
+            },
+            {
+               "id": 12,
+               "name": "Astro",
+               "color": "purple"
+            }
+         ]
+      },
+      {
+         "id": 1,
+         "label": "Connaissances",
+         "skills": [
+            {
+               "id": 1,
+               "name": "PHP",
+               "color": "purple"
+            },
+            {
+               "id": 2,
+               "name": "Python",
+               "color": "green"
+            },
+            {
+               "id": 3,
+               "name": "Symfony",
+               "color": "black"
+            },
+            {
+               "id": 4,
+               "name": "Wordpress",
+               "color": "teal"
+            },
+            {
+               "id": 5,
+               "name": "SQL",
+               "color": "black"
+            },
+            {
+               "id": 6,
+               "name": "C",
+               "color": "blue"
+            }
+         ]
+      }
+   ]
+}

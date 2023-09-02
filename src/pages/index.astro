@@ -1,7 +1,116 @@
 ---
+import Title from '../components/ui/title';
+import Text from '../components/ui/text';
 import Layout from '../layouts/Layout.astro';
+import Section from '../components/section.astro';
+import { SectionBio } from '../data/bio.json'
+import { SectionLike } from '../data/like.json'
+import { SectionExp } from '../data/experiences.json'
+import { SectionCompetences } from '../data/competences.json'
+import { Badge } from '../components/ui/badge';
+import { Separator } from '../components/ui/separator'
+import { Image } from 'astro:assets';
+import pp from '../assets/pp.png'
 ---
 
 <Layout title="Welcome to Astro.">
-	<h1 class="text-center">Hello World</h1>
+	<Section>
+		<div class="flex justify-between">
+			<div>
+				<Title variant='name'>Tom Lau</Title>
+				<Text>Développeur passioné</Text>
+			</div>
+			<Image src={pp} alt="photo" class="w-24 h-24 rounded-full pointer-events-none" />
+		</div>
+
+	</Section>
+	<Section title='Moi'>
+		<Text variant='indent'>
+			En tant que développeur passionné, je maîtrise <span class="text-black font-bold dark:text-white">Astro</span>, <span class="text-black font-bold dark:text-white">NextJS</span> et <span class="text-black font-bold dark:text-white">Typescript</span> pour créer des applications web performantes et évolutives.
+		</Text>
+		<Text variant='paragraph'>
+			Mon temps libre est dédié aux jeux vidéo, qui m'offrent une pause bien méritée tout en stimulant ma créativité. J'aime aussi découvrir de nouvelles technologies et approfondir mes connaissances en développement web pour rester constamment à la pointe de l'innovation.
+		</Text>
+		<Text variant='paragraph'>
+			Mon objectif est de toujours améliorer mes compétences et de contribuer activement à l'évolution du secteur.
+		</Text>
+	</Section>
+
+	<Section title="Bio">
+		{SectionBio.map((b) => (
+			<div
+			   class='flex gap-4'
+			>
+			   <Text variant='accent'>{b.date}</Text>
+			   <Text>{b.content}</Text>
+			</div>
+		 ))}
+	</Section>
+
+	<Section title="♥">
+		<div class='flex gap-2 mt-4 flex-wrap'>
+			{SectionLike.map((l: any, k) => (
+			 <Text>{l}</Text>
+			))}
+		 </div>
+	</Section>
+
+	<Section title="Réseaux">
+		<div class='flex items-center gap-2 mt-4'>
+			<a
+			   href='https://github.com/Tom-lchg'
+			   target='_blank'
+			   class='underline-offset-4 hover:underline text-[#bf5af2]'
+			>
+			   Github
+			</a>
+		 </div>
+	</Section>
+
+	<Section title="Compétences">
+		{SectionCompetences.map((item: any) => (
+			<div
+			   class='mt-6'
+			>
+			   <div class='sm:flex gap-4 mb-4 items-center'>
+				  <Text className='mb-2 sm:mb-0' variant='accent'>{item.label}</Text>
+				  <div class='flex flex-wrap gap-2'>
+					 {item.skills.map((s: any) => (
+						<Badge
+						   colorScheme={s.color}
+						   className='font-normal'
+						>
+						   {s.name}
+						</Badge>
+					 ))}
+				  </div>
+			   </div>
+			   <Separator />
+			</div>
+		 ))}
+	</Section>
+	
+
+	<Section title="Expériences">
+		{SectionExp.map((exp: any, key: number) => (
+			<div
+			   class='sm:grid sm:grid-cols-exp mb-6'
+			>
+			   <div class='sm:border-r-[1px]'>
+				  <Text>{exp.date}</Text>
+			   </div>
+			   <div class='sm:pl-6 mb-8 space-y-2'>
+				  <a
+					 href={exp.link}
+					 class='hover:underline underline-offset-4 text-[#bf5af2] inline-block my-4'
+				  >
+					 {exp.name}
+				  </a>
+				  <Text>{exp.do}</Text>
+				  <Text variant='accent'>{exp.task}</Text>
+				  <Text>{exp.time}</Text>
+			   </div>
+			</div>
+		 ))}
+	</Section>
 </Layout>

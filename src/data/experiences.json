@@ -1,0 +1,40 @@
+{
+   "SectionExp": [
+      {
+         "id": 4,
+         "name": "Infoting",
+         "do": "Boutique de maintenance informatique",
+         "task": "Création de leur nouveau site internet.",
+         "link": "https://infoting.fr/",
+         "date": "2022-2023",
+         "time": "1 mois | Formation"
+      },
+      {
+         "id": 2,
+         "name": "Diotasoft",
+         "do": "Transformation digitale avec des logiciels dédiés aux industriels pour vous guider dans vos tâche",
+         "task": "Observation de la conception de caméra 3D, aide à la refonte du site internet de l'entreprise.",
+         "link": "https://www.3ds.com/products/delmia/augmented-experience",
+         "date": "2017-2018",
+         "time": "Stage de 3 semaines"
+      },
+      {
+         "id": 1,
+         "name": "Novidys",
+         "do": "CS Novidy's est spécialisée dans les solutions et les services cybersécurité et transformation de l'IT.",
+         "task": "Aide au support concernant les problèmes des utilisateurs de leur logiciel.",
+         "link": "https://www.csnovidys.com/",
+         "date": "2015-2016",
+         "time": "Stage de 3 semaines"
+      },
+      {
+         "id": 3,
+         "name": "Eurocom",
+         "do": "Télécoms & Réseaux",
+         "task": "Mise en place du réseau informatique d'une entreprise.",
+         "link": "https://www.justacote.com/saint-fargeau-ponthierry-77310/electricien/eurocom-services-948114.htm",
+         "date": "2015-2016",
+         "time": "Stage de 3 semaines"
+      }
+   ]
+}
