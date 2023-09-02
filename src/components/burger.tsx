@@ -29,7 +29,7 @@ const BurgerMenu: FC = (): JSX.Element => {
                <DropdownMenuSeparator />
                <DropdownMenuItem>
                   <a
-                     href='https://github.com/Tom-lchg/pp'
+                     href='https://github.com/Tom-lchg/me3'
                      target='_blank'
                   >
                      Source
