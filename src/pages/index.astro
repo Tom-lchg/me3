@@ -17,14 +17,14 @@ import pp from '../assets/pp.png'
 	<Section>
 		<div class="flex justify-between">
 			<div>
-				<Title variant='name'>Tom Lau</Title>
+				<Title variant='name'>Tom Lau 👋</Title>
 				<Text>Développeur passioné</Text>
 			</div>
 			<Image src={pp} alt="photo" class="w-24 h-24 rounded-full pointer-events-none" />
 		</div>
-
 	</Section>
-	<Section title='Moi'>
+
+	<Section title='Moi 😀'>
 		<Text variant='indent'>
 			En tant que développeur passionné, je maîtrise <span class="text-black font-bold dark:text-white">Astro</span>, <span class="text-black font-bold dark:text-white">NextJS</span> et <span class="text-black font-bold dark:text-white">Typescript</span> pour créer des applications web performantes et évolutives.
 		</Text>
@@ -36,7 +36,7 @@ import pp from '../assets/pp.png'
 		</Text>
 	</Section>
 
-	<Section title="Bio">
+	<Section title="Bio 📅">
 		{SectionBio.map((b) => (
 			<div
 			   class='flex gap-4'
@@ -47,7 +47,7 @@ import pp from '../assets/pp.png'
 		 ))}
 	</Section>
 
-	<Section title="♥">
+	<Section title="❤️">
 		<div class='flex gap-2 mt-4 flex-wrap'>
 			{SectionLike.map((l: any, k) => (
 			 <Text>{l}</Text>
@@ -67,7 +67,7 @@ import pp from '../assets/pp.png'
 		 </div>
 	</Section>
 
-	<Section title="Compétences">
+	<Section title="Compétences 📈">
 		{SectionCompetences.map((item: any) => (
 			<div
 			   class='mt-6'
@@ -91,7 +91,7 @@ import pp from '../assets/pp.png'
 	</Section>
 	
 
-	<Section title="Expériences">
+	<Section title="Expériences 🔍">
 		{SectionExp.map((exp: any, key: number) => (
 			<div
 			   class='sm:grid sm:grid-cols-exp mb-6'

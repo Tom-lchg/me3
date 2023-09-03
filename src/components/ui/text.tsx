@@ -9,7 +9,7 @@ const TextVariants = cva('text-[#33353D] dark:text-[#AEACAF]', {
          default: '',
          indent: 'indent-4 hyphens-auto text-justify',
          paragraph: 'hyphens-auto text-justify',
-         accent: 'font-medium text-black',
+         accent: 'font-medium text-black dark:text-white',
       },
    },
    defaultVariants: {
