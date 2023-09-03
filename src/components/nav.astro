@@ -11,7 +11,7 @@ const pathname = Astro.url.pathname
         <div class="space-x-6">
             <a href="/" class={cn('text-[18px] duration-100', pathname === '/' ? 'text-black dark:text-white font-bold' : 'text-zinc-600 dark:hover:text-white hover:text-black')}>Tom</a>
             <a href="/projets" class={cn('text-[18px] hidden sm:inline duration-100', pathname === '/projets' ? 'text-black dark:text-white font-bold' : 'text-zinc-600 dark:hover:text-white hover:text-black')}>Projets</a>
-            <a href="/" target='_blank' class="text-[18px] hidden sm:inline">Source</a>
+            <a href="https://github.com/Tom-lchg/me3" target='_blank' class="text-[18px] hidden sm:inline">Source</a>
         </div>
         <div class="flex sm:block gap-2">
             <ToggleTheme client:only/>
