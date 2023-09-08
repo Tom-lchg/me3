@@ -46,6 +46,13 @@
                "description": "Réalisation de leur site web",
                "link": "https://infoting.fr/",
                "img": "https://infoting.fr/logo.png"
+            },
+            {
+               "id": 2,
+               "name": "Litinérancde",
+               "description": "Réalisation de leur site web",
+               "link": "https://litinerance.fr/",
+               "img": "https://litinerance.fr/assets/logo2.png"
             }
          ]
       }
