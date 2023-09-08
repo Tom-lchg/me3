@@ -1,6 +1,15 @@
 {
    "SectionExp": [
       {
+         "id": 424,
+         "name": "Litinerance",
+         "do": "Hôtel - Restaurant",
+         "task": "Création de leur nouveau site internet.",
+         "link": "https://litinerance.fr/",
+         "date": "Juillet - Septembre 2023",
+         "time": "1 mois"
+      },
+      {
          "id": 4,
          "name": "Infoting",
          "do": "Boutique de maintenance informatique",
